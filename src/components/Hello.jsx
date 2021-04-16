@@ -34,8 +34,7 @@ class Search extends React.Component {
                     <br/><br/><label>FirstName</label>&nbsp;&nbsp;
                     <input id='firstName' type='text' value={this.state.firstName} onChange={this.handleFirstName} />
 
-                    <div style={{ color: 'red', fontSize: 12 }}>{this.state.fName_Error}</div>
-                    {/* ):null} */}
+                    <div style={{ color: 'red', fontSize: 12 }}>{this.state.fName_Error}</div>               
                 </div>&nbsp;
                 <div>
                     <label>LastName</label>&nbsp;&nbsp;
